@@ -14,7 +14,7 @@ const renderProduct = (item) => {
         <div class="product-item">
             <h3>${item.title}</h3>
             <img src="${item.image}" alt="">
-            <p>${item.price}</p>
+            <p>${item.price} y.e. </p>
             <button class="buy-btn">Купить</button>
             </div>`
 };

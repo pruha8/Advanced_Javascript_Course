@@ -1,0 +1,25 @@
+body {
+    margin: 0, auto;
+    font-family: Lato, sans-serif;
+    width: 1400px;
+}
+.header {
+    height: 100px;
+    padding-top: 20px;
+    padding-left: 20px;
+}
+.products {
+    display: flex;
+    justify-content: space-between;
+}
+
+.product-item {
+    width: 25%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+img {
+    width: 200px;
+    height: 200px;
+}
